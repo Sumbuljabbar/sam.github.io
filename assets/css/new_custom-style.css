@@ -1,0 +1,55 @@
+
+
+
+
+
+        .container {
+            margin: 0;  /* Remove container margins */
+            padding: 0; /* Remove container padding */
+        }
+        
+        
+        /* Reset margin and padding for divs */
+        div{
+            margin: 0;
+            padding: 0;
+        }
+        
+        ul {
+            list-style-type: none;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+            font-size:105%;
+            margin: 0;
+            padding: 0;
+          }
+        li {
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+            font-size:105%;
+            list-style-type:disc;
+            margin: 0;
+            padding: 0;
+          }
+        
+        li:hover {
+            color: #007BFF;
+          }
+        
+        
+        /* Space between list items */
+        .post .list-item {
+            margin-top: 0%;
+            font-size:95%;
+        }
+        
+        /* Remove any default spacing from divs */
+            .list-container {
+                margin: 0;
+                padding: 0;
+            }
+        
+        /* Ensuring proper display for the list items */
+            .list-item {
+                font-size: small;
+                margin: 0; /* Remove margin between list items */
+                padding: 0;
+            }
